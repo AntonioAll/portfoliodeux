@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{background-color: #0f0e17;}
+
+h1{  
+    font-size: 80px;
+}
+
+nav {
+    display: flex;
+    background-color: rgb(14, 14, 70);
+    justify-content: space-between;
+    height: 56px;
+
+    ul {
+        display: flex;
+        list-style: none;
+        justify-content: space-around;
+        width: 33%;
+    }
+a{
+    text-decoration: none;
+    color: beige;
+}
+img{height: 50px;
+display: flex;}
+}
+
+.liste{display: flex;
+    justify-content: space-around;
+    
+}
+h2{text-align: center;
+    .bebas-neue-regular {
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+      
+      }
+      
+}
+
+#présentation{justify-content: center;
+align-items: flex-start;}
+
+.a-propos{
+    padding: 64px;
+}
+
+#imageronde{border-radius: 50%;
+display: flex;}
+
+#parle{
+    align-items: center;
+    gap: 24px;
+    display: flex;
+    font-weight: 1000;
+    font-size: 30px;
+}
+#CV{
+    flex-direction: column;
+    gap: 32px;
+    padding: 64px;
+}
+.parcours-wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.contour{
+    border: #ff8906 solid 1px ;
+    border-radius: 10px;
+    list-style: none;
+}
+
+
+section{margin-bottom: 24px;
+color:#a7a9be ; }
+
+
+form.card {
+    width: 100%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+
+    .firstRow {
+        display: flex;
+
+        .formGroup {
+            width: 45%;
+        }
+    }
+
+    input, textarea {
+        border: rgb(53, 8, 8) 1px solid;
+        padding: 10px;
+        width: 90%;
+    }
+
+    .btn {
+        margin: auto;
+        width: 30%;
+        align-self: center;
+    background-color:#ff8906 ;
+    }
+}
+
+
+.hero-sec{
+    background: url(hero-bg.png);
+    background: url(hero-bg.png);
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.button{
+    background: #faebd7d4;
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px #0000004a;
+    margin-top: 16px;
+    text-decoration: none;
+}
