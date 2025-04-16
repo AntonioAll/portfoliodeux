@@ -1,11 +1,13 @@
 * {
     margin: 0;
     padding: 0;
+    
 }
 body{background-color: #0f0e17;}
 
 h1{  
     font-size: 80px;
+    font-family: "Russo One", sans-serif;
 }
 
 nav {
@@ -19,6 +21,14 @@ nav {
         list-style: none;
         justify-content: space-around;
         width: 33%;
+        font-size: 35px;
+    }
+    img{border-radius: 50%;}
+    a{font-family: "PT Sans Caption",sans-serif;
+    border: 2px solid ;
+    border-radius:  50%;
+padding: 10px;}
+    
     }
 a{
     text-decoration: none;
@@ -26,7 +36,7 @@ a{
 }
 img{height: 50px;
 display: flex;}
-}
+
 
 .liste{display: flex;
     justify-content: space-around;
@@ -68,14 +78,16 @@ p{font-family: "PT Sans Caption",sans-serif}}
 }
 
 #imageronde{border-radius: 50%;
-display: flex;}
+display: flex;
+height: 115px;}
 
 #parle{
     align-items: center;
     gap: 24px;
     display: flex;
+    height: 80px;
     font-weight: 1000;
-    font-size: 30px;
+    font-size: 1.875em;
     p{font-family: "PT Sans Caption",sans-serif}
 }
 #CV{
@@ -101,11 +113,15 @@ text-align: center;}
     border: #ff8906 solid 1px ;
     border-radius: 10px;
     list-style: none;
+    font-family:"PT sans caption",sans-serif ;
+    padding: 10px;
+    box-shadow: 6px 6px 6px #ff8906;
 }
 
 
 section{margin-bottom: 24px;
-color:#a7a9be ; }
+color:#a7a9be ; 
+margin: auto;}
 
 
 form.card {
@@ -123,7 +139,7 @@ form.card {
     }
 
     input, textarea {
-        border: rgb(53, 8, 8) 1px solid;
+        border: rgb(167, 22, 22) 1px solid;
         padding: 10px;
         width: 90%;
     }
@@ -146,6 +162,7 @@ form.card {
     justify-content: center;
     align-items: center;
     text-align: center;
+    font-family: 
 }
 .button{
     background: #faebd7d4;
@@ -162,5 +179,16 @@ a{color: #ff8906;}
 p{color: #a7a9be;}}
 
 a:hover {
-    background-color: gold;
+    background-color: rgb(186, 117, 7);
   }
+
+  @media only screen and (max-width:833px)
+  #parle{
+    align-items: center;
+    gap: 24px;
+    display: flex;
+    height: 80px;
+    font-weight: 1000;
+    font-size: 1.875em;
+    p{font-family: "PT Sans Caption",sans-serif}
+
