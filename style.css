@@ -160,3 +160,7 @@ footer{ background-color: rgb(14, 14, 70);
 height: 56px;
 a{color: #ff8906;}
 p{color: #a7a9be;}}
+
+a:hover {
+    background-color: gold;
+  }
